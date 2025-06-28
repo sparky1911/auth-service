@@ -1,0 +1,17 @@
+app:
+  name: auth-service
+  port: 8080
+  env: development
+  jwt_secret: "dev-secret-key"
+
+db:
+  host: localhost
+  port: 5432
+  user: postgres
+  password: password
+  name: authdb
+  sslmode: disable
+
+redis:
+  host: localhost
+  port: 6379
